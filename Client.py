@@ -2,8 +2,8 @@ mport socket
 import time
 
 def start_client():
-    host = "127.0.0.1" # địa chỉ IP của máy chủ
-    port = 4444 # cổng kết nối
+    host = "54.186.2.90" # địa chỉ IP của máy chủ
+    port = 50078 # cổng kết nối
     retry_delay = 5 # thời gian chờ giữa các lần kết nối lại
 
     while True:
